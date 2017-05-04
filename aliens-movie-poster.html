@@ -1,0 +1,139 @@
+<style>
+body {
+  background: #222;
+  font-size: 3px;
+}
+
+.poster {
+  background: -webkit-linear-gradient(#455528, #1b2110);
+  background: linear-gradient(#455528, #1b2110);
+  border: 5em solid #c3bfad;
+  margin: 20em auto;
+  padding: 25em 5em 10em;
+  width: 132em;
+}
+
+.row {
+  display: block;
+  height: 10em;
+  width: 100%;
+}
+.row:nth-child(even) .invader {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.invader {
+  background: rgba(195, 191, 173, 0);
+  display: inline;
+  float: left;
+  height: 1em;
+  margin-right: 12em;
+  margin-bottom: 10em;
+  width: 1em;
+  -webkit-animation: pulse 1s infinite;
+          animation: pulse 1s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0%,49.999%,100% {
+    box-shadow: 2em 0em 0 rgba(34, 34, 34, 0), 3em 0em 0 rgba(34, 34, 34, 0), 4em 0em 0 #c3bfad, 5em 0em 0 rgba(34, 34, 34, 0), 6em 0em 0 rgba(34, 34, 34, 0), 7em 0em 0 rgba(34, 34, 34, 0), 8em 0em 0 rgba(34, 34, 34, 0), 9em 0em 0 rgba(34, 34, 34, 0), 10em 0em 0 #c3bfad, 11em 0em 0 rgba(34, 34, 34, 0), 12em 0em 0 rgba(34, 34, 34, 0), 2em 1em 0 rgba(34, 34, 34, 0), 3em 1em 0 rgba(34, 34, 34, 0), 4em 1em 0 rgba(34, 34, 34, 0), 5em 1em 0 #c3bfad, 6em 1em 0 rgba(34, 34, 34, 0), 7em 1em 0 rgba(34, 34, 34, 0), 8em 1em 0 rgba(34, 34, 34, 0), 9em 1em 0 #c3bfad, 10em 1em 0 rgba(34, 34, 34, 0), 11em 1em 0 rgba(34, 34, 34, 0), 12em 1em 0 rgba(34, 34, 34, 0), 2em 2em 0 rgba(34, 34, 34, 0), 3em 2em 0 rgba(34, 34, 34, 0), 4em 2em 0 #c3bfad, 5em 2em 0 #c3bfad, 6em 2em 0 #c3bfad, 7em 2em 0 #c3bfad, 8em 2em 0 #c3bfad, 9em 2em 0 #c3bfad, 10em 2em 0 #c3bfad, 11em 2em 0 rgba(34, 34, 34, 0), 12em 2em 0 rgba(34, 34, 34, 0), 2em 3em 0 rgba(34, 34, 34, 0), 3em 3em 0 #c3bfad, 4em 3em 0 #c3bfad, 5em 3em 0 rgba(34, 34, 34, 0), 6em 3em 0 #c3bfad, 7em 3em 0 #c3bfad, 8em 3em 0 #c3bfad, 9em 3em 0 rgba(34, 34, 34, 0), 10em 3em 0 #c3bfad, 11em 3em 0 #c3bfad, 12em 3em 0 rgba(34, 34, 34, 0), 2em 4em 0 #c3bfad, 3em 4em 0 #c3bfad, 4em 4em 0 #c3bfad, 5em 4em 0 #c3bfad, 6em 4em 0 #c3bfad, 7em 4em 0 #c3bfad, 8em 4em 0 #c3bfad, 9em 4em 0 #c3bfad, 10em 4em 0 #c3bfad, 11em 4em 0 #c3bfad, 12em 4em 0 #c3bfad, 2em 5em 0 #c3bfad, 3em 5em 0 rgba(34, 34, 34, 0), 4em 5em 0 #c3bfad, 5em 5em 0 #c3bfad, 6em 5em 0 #c3bfad, 7em 5em 0 #c3bfad, 8em 5em 0 #c3bfad, 9em 5em 0 #c3bfad, 10em 5em 0 #c3bfad, 11em 5em 0 rgba(34, 34, 34, 0), 12em 5em 0 #c3bfad, 2em 6em 0 #c3bfad, 3em 6em 0 rgba(34, 34, 34, 0), 4em 6em 0 #c3bfad, 5em 6em 0 rgba(34, 34, 34, 0), 6em 6em 0 rgba(34, 34, 34, 0), 7em 6em 0 rgba(34, 34, 34, 0), 8em 6em 0 rgba(34, 34, 34, 0), 9em 6em 0 rgba(34, 34, 34, 0), 10em 6em 0 #c3bfad, 11em 6em 0 rgba(34, 34, 34, 0), 12em 6em 0 #c3bfad, 2em 7em 0 rgba(34, 34, 34, 0), 3em 7em 0 rgba(34, 34, 34, 0), 4em 7em 0 rgba(34, 34, 34, 0), 5em 7em 0 #c3bfad, 6em 7em 0 #c3bfad, 7em 7em 0 rgba(34, 34, 34, 0), 8em 7em 0 #c3bfad, 9em 7em 0 #c3bfad, 10em 7em 0 rgba(34, 34, 34, 0), 11em 7em 0 rgba(34, 34, 34, 0), 12em 7em 0 rgba(34, 34, 34, 0);
+  }
+  50%,99.999% {
+    box-shadow: 2em 0em 0 rgba(34, 34, 34, 0), 3em 0em 0 rgba(34, 34, 34, 0), 4em 0em 0 #c3bfad, 5em 0em 0 rgba(34, 34, 34, 0), 6em 0em 0 rgba(34, 34, 34, 0), 7em 0em 0 rgba(34, 34, 34, 0), 8em 0em 0 rgba(34, 34, 34, 0), 9em 0em 0 rgba(34, 34, 34, 0), 10em 0em 0 #c3bfad, 11em 0em 0 rgba(34, 34, 34, 0), 12em 0em 0 rgba(34, 34, 34, 0), 2em 1em 0 rgba(34, 34, 34, 0), 3em 1em 0 rgba(34, 34, 34, 0), 4em 1em 0 rgba(34, 34, 34, 0), 5em 1em 0 #c3bfad, 6em 1em 0 rgba(34, 34, 34, 0), 7em 1em 0 rgba(34, 34, 34, 0), 8em 1em 0 rgba(34, 34, 34, 0), 9em 1em 0 #c3bfad, 10em 1em 0 rgba(34, 34, 34, 0), 11em 1em 0 rgba(34, 34, 34, 0), 12em 1em 0 rgba(34, 34, 34, 0), 2em 2em 0 #c3bfad, 3em 2em 0 rgba(34, 34, 34, 0), 4em 2em 0 #c3bfad, 5em 2em 0 #c3bfad, 6em 2em 0 #c3bfad, 7em 2em 0 #c3bfad, 8em 2em 0 #c3bfad, 9em 2em 0 #c3bfad, 10em 2em 0 #c3bfad, 11em 2em 0 rgba(34, 34, 34, 0), 12em 2em 0 #c3bfad, 2em 3em 0 #c3bfad, 3em 3em 0 #c3bfad, 4em 3em 0 #c3bfad, 5em 3em 0 rgba(34, 34, 34, 0), 6em 3em 0 #c3bfad, 7em 3em 0 #c3bfad, 8em 3em 0 #c3bfad, 9em 3em 0 rgba(34, 34, 34, 0), 10em 3em 0 #c3bfad, 11em 3em 0 #c3bfad, 12em 3em 0 #c3bfad, 2em 4em 0 #c3bfad, 3em 4em 0 #c3bfad, 4em 4em 0 #c3bfad, 5em 4em 0 #c3bfad, 6em 4em 0 #c3bfad, 7em 4em 0 #c3bfad, 8em 4em 0 #c3bfad, 9em 4em 0 #c3bfad, 10em 4em 0 #c3bfad, 11em 4em 0 #c3bfad, 12em 4em 0 #c3bfad, 2em 5em 0 rgba(34, 34, 34, 0), 3em 5em 0 #c3bfad, 4em 5em 0 #c3bfad, 5em 5em 0 #c3bfad, 6em 5em 0 #c3bfad, 7em 5em 0 #c3bfad, 8em 5em 0 #c3bfad, 9em 5em 0 #c3bfad, 10em 5em 0 #c3bfad, 11em 5em 0 #c3bfad, 12em 5em 0 rgba(34, 34, 34, 0), 2em 6em 0 rgba(34, 34, 34, 0), 3em 6em 0 rgba(34, 34, 34, 0), 4em 6em 0 #c3bfad, 5em 6em 0 rgba(34, 34, 34, 0), 6em 6em 0 rgba(34, 34, 34, 0), 7em 6em 0 rgba(34, 34, 34, 0), 8em 6em 0 rgba(34, 34, 34, 0), 9em 6em 0 rgba(34, 34, 34, 0), 10em 6em 0 #c3bfad, 11em 6em 0 rgba(34, 34, 34, 0), 12em 6em 0 rgba(34, 34, 34, 0), 2em 7em 0 rgba(34, 34, 34, 0), 3em 7em 0 #c3bfad, 4em 7em 0 rgba(34, 34, 34, 0), 5em 7em 0 rgba(34, 34, 34, 0), 6em 7em 0 rgba(34, 34, 34, 0), 7em 7em 0 rgba(34, 34, 34, 0), 8em 7em 0 rgba(34, 34, 34, 0), 9em 7em 0 rgba(34, 34, 34, 0), 10em 7em 0 rgba(34, 34, 34, 0), 11em 7em 0 #c3bfad, 12em 7em 0 rgba(34, 34, 34, 0);
+  }
+}
+
+@keyframes pulse {
+  0%,49.999%,100% {
+    box-shadow: 2em 0em 0 rgba(34, 34, 34, 0), 3em 0em 0 rgba(34, 34, 34, 0), 4em 0em 0 #c3bfad, 5em 0em 0 rgba(34, 34, 34, 0), 6em 0em 0 rgba(34, 34, 34, 0), 7em 0em 0 rgba(34, 34, 34, 0), 8em 0em 0 rgba(34, 34, 34, 0), 9em 0em 0 rgba(34, 34, 34, 0), 10em 0em 0 #c3bfad, 11em 0em 0 rgba(34, 34, 34, 0), 12em 0em 0 rgba(34, 34, 34, 0), 2em 1em 0 rgba(34, 34, 34, 0), 3em 1em 0 rgba(34, 34, 34, 0), 4em 1em 0 rgba(34, 34, 34, 0), 5em 1em 0 #c3bfad, 6em 1em 0 rgba(34, 34, 34, 0), 7em 1em 0 rgba(34, 34, 34, 0), 8em 1em 0 rgba(34, 34, 34, 0), 9em 1em 0 #c3bfad, 10em 1em 0 rgba(34, 34, 34, 0), 11em 1em 0 rgba(34, 34, 34, 0), 12em 1em 0 rgba(34, 34, 34, 0), 2em 2em 0 rgba(34, 34, 34, 0), 3em 2em 0 rgba(34, 34, 34, 0), 4em 2em 0 #c3bfad, 5em 2em 0 #c3bfad, 6em 2em 0 #c3bfad, 7em 2em 0 #c3bfad, 8em 2em 0 #c3bfad, 9em 2em 0 #c3bfad, 10em 2em 0 #c3bfad, 11em 2em 0 rgba(34, 34, 34, 0), 12em 2em 0 rgba(34, 34, 34, 0), 2em 3em 0 rgba(34, 34, 34, 0), 3em 3em 0 #c3bfad, 4em 3em 0 #c3bfad, 5em 3em 0 rgba(34, 34, 34, 0), 6em 3em 0 #c3bfad, 7em 3em 0 #c3bfad, 8em 3em 0 #c3bfad, 9em 3em 0 rgba(34, 34, 34, 0), 10em 3em 0 #c3bfad, 11em 3em 0 #c3bfad, 12em 3em 0 rgba(34, 34, 34, 0), 2em 4em 0 #c3bfad, 3em 4em 0 #c3bfad, 4em 4em 0 #c3bfad, 5em 4em 0 #c3bfad, 6em 4em 0 #c3bfad, 7em 4em 0 #c3bfad, 8em 4em 0 #c3bfad, 9em 4em 0 #c3bfad, 10em 4em 0 #c3bfad, 11em 4em 0 #c3bfad, 12em 4em 0 #c3bfad, 2em 5em 0 #c3bfad, 3em 5em 0 rgba(34, 34, 34, 0), 4em 5em 0 #c3bfad, 5em 5em 0 #c3bfad, 6em 5em 0 #c3bfad, 7em 5em 0 #c3bfad, 8em 5em 0 #c3bfad, 9em 5em 0 #c3bfad, 10em 5em 0 #c3bfad, 11em 5em 0 rgba(34, 34, 34, 0), 12em 5em 0 #c3bfad, 2em 6em 0 #c3bfad, 3em 6em 0 rgba(34, 34, 34, 0), 4em 6em 0 #c3bfad, 5em 6em 0 rgba(34, 34, 34, 0), 6em 6em 0 rgba(34, 34, 34, 0), 7em 6em 0 rgba(34, 34, 34, 0), 8em 6em 0 rgba(34, 34, 34, 0), 9em 6em 0 rgba(34, 34, 34, 0), 10em 6em 0 #c3bfad, 11em 6em 0 rgba(34, 34, 34, 0), 12em 6em 0 #c3bfad, 2em 7em 0 rgba(34, 34, 34, 0), 3em 7em 0 rgba(34, 34, 34, 0), 4em 7em 0 rgba(34, 34, 34, 0), 5em 7em 0 #c3bfad, 6em 7em 0 #c3bfad, 7em 7em 0 rgba(34, 34, 34, 0), 8em 7em 0 #c3bfad, 9em 7em 0 #c3bfad, 10em 7em 0 rgba(34, 34, 34, 0), 11em 7em 0 rgba(34, 34, 34, 0), 12em 7em 0 rgba(34, 34, 34, 0);
+  }
+  50%,99.999% {
+    box-shadow: 2em 0em 0 rgba(34, 34, 34, 0), 3em 0em 0 rgba(34, 34, 34, 0), 4em 0em 0 #c3bfad, 5em 0em 0 rgba(34, 34, 34, 0), 6em 0em 0 rgba(34, 34, 34, 0), 7em 0em 0 rgba(34, 34, 34, 0), 8em 0em 0 rgba(34, 34, 34, 0), 9em 0em 0 rgba(34, 34, 34, 0), 10em 0em 0 #c3bfad, 11em 0em 0 rgba(34, 34, 34, 0), 12em 0em 0 rgba(34, 34, 34, 0), 2em 1em 0 rgba(34, 34, 34, 0), 3em 1em 0 rgba(34, 34, 34, 0), 4em 1em 0 rgba(34, 34, 34, 0), 5em 1em 0 #c3bfad, 6em 1em 0 rgba(34, 34, 34, 0), 7em 1em 0 rgba(34, 34, 34, 0), 8em 1em 0 rgba(34, 34, 34, 0), 9em 1em 0 #c3bfad, 10em 1em 0 rgba(34, 34, 34, 0), 11em 1em 0 rgba(34, 34, 34, 0), 12em 1em 0 rgba(34, 34, 34, 0), 2em 2em 0 #c3bfad, 3em 2em 0 rgba(34, 34, 34, 0), 4em 2em 0 #c3bfad, 5em 2em 0 #c3bfad, 6em 2em 0 #c3bfad, 7em 2em 0 #c3bfad, 8em 2em 0 #c3bfad, 9em 2em 0 #c3bfad, 10em 2em 0 #c3bfad, 11em 2em 0 rgba(34, 34, 34, 0), 12em 2em 0 #c3bfad, 2em 3em 0 #c3bfad, 3em 3em 0 #c3bfad, 4em 3em 0 #c3bfad, 5em 3em 0 rgba(34, 34, 34, 0), 6em 3em 0 #c3bfad, 7em 3em 0 #c3bfad, 8em 3em 0 #c3bfad, 9em 3em 0 rgba(34, 34, 34, 0), 10em 3em 0 #c3bfad, 11em 3em 0 #c3bfad, 12em 3em 0 #c3bfad, 2em 4em 0 #c3bfad, 3em 4em 0 #c3bfad, 4em 4em 0 #c3bfad, 5em 4em 0 #c3bfad, 6em 4em 0 #c3bfad, 7em 4em 0 #c3bfad, 8em 4em 0 #c3bfad, 9em 4em 0 #c3bfad, 10em 4em 0 #c3bfad, 11em 4em 0 #c3bfad, 12em 4em 0 #c3bfad, 2em 5em 0 rgba(34, 34, 34, 0), 3em 5em 0 #c3bfad, 4em 5em 0 #c3bfad, 5em 5em 0 #c3bfad, 6em 5em 0 #c3bfad, 7em 5em 0 #c3bfad, 8em 5em 0 #c3bfad, 9em 5em 0 #c3bfad, 10em 5em 0 #c3bfad, 11em 5em 0 #c3bfad, 12em 5em 0 rgba(34, 34, 34, 0), 2em 6em 0 rgba(34, 34, 34, 0), 3em 6em 0 rgba(34, 34, 34, 0), 4em 6em 0 #c3bfad, 5em 6em 0 rgba(34, 34, 34, 0), 6em 6em 0 rgba(34, 34, 34, 0), 7em 6em 0 rgba(34, 34, 34, 0), 8em 6em 0 rgba(34, 34, 34, 0), 9em 6em 0 rgba(34, 34, 34, 0), 10em 6em 0 #c3bfad, 11em 6em 0 rgba(34, 34, 34, 0), 12em 6em 0 rgba(34, 34, 34, 0), 2em 7em 0 rgba(34, 34, 34, 0), 3em 7em 0 #c3bfad, 4em 7em 0 rgba(34, 34, 34, 0), 5em 7em 0 rgba(34, 34, 34, 0), 6em 7em 0 rgba(34, 34, 34, 0), 7em 7em 0 rgba(34, 34, 34, 0), 8em 7em 0 rgba(34, 34, 34, 0), 9em 7em 0 rgba(34, 34, 34, 0), 10em 7em 0 rgba(34, 34, 34, 0), 11em 7em 0 #c3bfad, 12em 7em 0 rgba(34, 34, 34, 0);
+  }
+}
+.game-over {
+  border: 0.2em solid #c3bfad;
+  color: #c3bfad;
+  font: 400 5em/2.65em 'Press Start 2P', cursive;
+  height: 2.5em;
+  margin: 5em auto 15em;
+  text-align: center;
+  text-transform: uppercase;
+  width: 16em;
+}
+
+.aliens {
+  color: #c3bfad;
+  font: 400 25em/1em 'Six Caps', sans-serif;
+  margin: 0 0 0 .5em;
+  text-align: center;
+  letter-spacing: .5em;
+  text-transform: uppercase;
+}
+
+</style>
+<div class="poster">
+  <div class="row">
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+  </div>
+  <div class="row">
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+  </div>
+  <div class="row">
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+  </div>
+  <div class="row">
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+  </div>
+  <div class="row">
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+    <div class="invader"></div>
+  </div>
+  <h1 class="game-over">Game Over, Man!</h1>
+  <h2 class="aliens">Aliens</h2>
+</div>
